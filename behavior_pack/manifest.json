@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§6CHUNK §dBLOCKS §e67",
+    "description": "CHUNK BLOCKS 67 | Autor: CHAT GPT",
+    "uuid": "4e60d8d5-4d72-4d47-9a32-6ac30adcf1a1",
+    "version": [1, 0, 1],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "5bd7f0f3-40ca-4a8c-9b66-55d51a6c31a2",
+      "version": [1, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.13.0" }
+  ]
+}
